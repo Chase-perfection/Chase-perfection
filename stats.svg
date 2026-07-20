@@ -29,7 +29,7 @@
 <g class="tile" style="animation-delay:0.45s">
 <rect x="22.0" y="150" width="214.7" height="82" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
 <text x="129.3" y="192" text-anchor="middle" fill="#39d353" font-size="30" font-weight="700">7</text>
-<text x="129.3" y="214" text-anchor="middle" fill="#8b949e" font-size="13">commits (an)</text>
+<text x="129.3" y="214" text-anchor="middle" fill="#8b949e" font-size="13">commits</text>
 </g>
 <g class="tile" style="animation-delay:0.55s">
 <rect x="252.7" y="150" width="214.7" height="82" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
