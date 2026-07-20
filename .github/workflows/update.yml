@@ -20,12 +20,28 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Generer la banniere terminal
+        run: python scripts/generate_banner.py
+
       - name: Generer la carte neofetch
         run: python scripts/generate_info_card.py
 
+      # Les etapes suivantes utilisent l'API GitHub.
+      # Utilise ton PAT (secret GH_PAT) s'il existe, sinon le token auto de l'Action.
+      - name: Generer la carte de statistiques
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: python scripts/generate_stats.py
+
+      - name: Generer les barres de langages
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: python scripts/generate_langs.py
+
       - name: Generer le heatmap de contributions
         env:
-          # Utilise ton PAT (secret GH_PAT) s'il existe, sinon le token auto de l'Action.
           GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
           GH_LOGIN: ${{ github.repository_owner }}
         run: python scripts/generate_heatmap.py
@@ -34,6 +50,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add info-card.svg contrib-heatmap.svg
+          git add banner.svg info-card.svg stats.svg langs.svg contrib-heatmap.svg
           git commit -m "chore: regenerate profile SVGs" || echo "Rien a committer"
           git push

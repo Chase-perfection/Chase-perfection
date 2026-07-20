@@ -1,0 +1,35 @@
+name: Generate snake
+
+# Genere l'animation "snake" qui devore ton graphe de contributions,
+# et la publie sur la branche `output` (raw referencee dans le README).
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"     # toutes les 12 heures
+  workflow_dispatch:            # bouton "Run workflow" (declenchement manuel)
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generer les SVG du snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake.gif?color_snake=#39d353&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+
+      - name: Publier sur la branche output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
