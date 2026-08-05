@@ -2,17 +2,6 @@
 
 `chase-perfection@github` · `~/profile`
 
-<br>
-
-<img src="./banner.svg" alt="terminal banner" width="720">
-
-<br><br>
-
-<img src="./info-card.svg" alt="info card" width="720">
-
-<br><br>
-
-<img src="./stats.svg" alt="github stats" width="720">
 
 <br><br>
 
