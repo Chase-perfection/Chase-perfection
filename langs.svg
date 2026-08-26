@@ -16,13 +16,13 @@
 <g class="row" style="animation-delay:0.15s">
 <text x="22" y="68" fill="#c9d1d9">Python</text>
 <rect x="152" y="56" width="492.0" height="12" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
-<rect class="fill" x="152" y="56" width="374.1" height="12" rx="6" fill="#3572A5" style="animation-delay:0.15s"/>
-<text x="698" y="68" text-anchor="end" fill="#8b949e">76.0%</text>
+<rect class="fill" x="152" y="56" width="321.0" height="12" rx="6" fill="#3572A5" style="animation-delay:0.15s"/>
+<text x="698" y="68" text-anchor="end" fill="#8b949e">65.2%</text>
 </g>
 <g class="row" style="animation-delay:0.27s">
 <text x="22" y="102" fill="#c9d1d9">JavaScript</text>
 <rect x="152" y="90" width="492.0" height="12" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
-<rect class="fill" x="152" y="90" width="117.9" height="12" rx="6" fill="#f1e05a" style="animation-delay:0.27s"/>
-<text x="698" y="102" text-anchor="end" fill="#8b949e">24.0%</text>
+<rect class="fill" x="152" y="90" width="171.0" height="12" rx="6" fill="#f1e05a" style="animation-delay:0.27s"/>
+<text x="698" y="102" text-anchor="end" fill="#8b949e">34.8%</text>
 </g>
 </svg>
