@@ -16,31 +16,31 @@
 <g class="row" style="animation-delay:0.15s">
 <text x="22" y="68" fill="#c9d1d9">JavaScript</text>
 <rect x="152" y="56" width="492.0" height="12" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
-<rect class="fill" x="152" y="56" width="428.2" height="12" rx="6" fill="#f1e05a" style="animation-delay:0.15s"/>
-<text x="698" y="68" text-anchor="end" fill="#8b949e">87.0%</text>
+<rect class="fill" x="152" y="56" width="431.5" height="12" rx="6" fill="#f1e05a" style="animation-delay:0.15s"/>
+<text x="698" y="68" text-anchor="end" fill="#8b949e">87.7%</text>
 </g>
 <g class="row" style="animation-delay:0.27s">
 <text x="22" y="102" fill="#c9d1d9">HTML</text>
 <rect x="152" y="90" width="492.0" height="12" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
-<rect class="fill" x="152" y="90" width="21.2" height="12" rx="6" fill="#e34c26" style="animation-delay:0.27s"/>
-<text x="698" y="102" text-anchor="end" fill="#8b949e">4.3%</text>
+<rect class="fill" x="152" y="90" width="19.7" height="12" rx="6" fill="#e34c26" style="animation-delay:0.27s"/>
+<text x="698" y="102" text-anchor="end" fill="#8b949e">4.0%</text>
 </g>
 <g class="row" style="animation-delay:0.39s">
 <text x="22" y="136" fill="#c9d1d9">CSS</text>
 <rect x="152" y="124" width="492.0" height="12" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
-<rect class="fill" x="152" y="124" width="18.7" height="12" rx="6" fill="#663399" style="animation-delay:0.39s"/>
-<text x="698" y="136" text-anchor="end" fill="#8b949e">3.8%</text>
+<rect class="fill" x="152" y="124" width="18.2" height="12" rx="6" fill="#663399" style="animation-delay:0.39s"/>
+<text x="698" y="136" text-anchor="end" fill="#8b949e">3.7%</text>
 </g>
 <g class="row" style="animation-delay:0.51s">
 <text x="22" y="170" fill="#c9d1d9">PowerShell</text>
 <rect x="152" y="158" width="492.0" height="12" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
-<rect class="fill" x="152" y="158" width="12.6" height="12" rx="6" fill="#012456" style="animation-delay:0.51s"/>
-<text x="698" y="170" text-anchor="end" fill="#8b949e">2.6%</text>
+<rect class="fill" x="152" y="158" width="12.0" height="12" rx="6" fill="#012456" style="animation-delay:0.51s"/>
+<text x="698" y="170" text-anchor="end" fill="#8b949e">2.4%</text>
 </g>
 <g class="row" style="animation-delay:0.63s">
 <text x="22" y="204" fill="#c9d1d9">Python</text>
 <rect x="152" y="192" width="492.0" height="12" rx="6" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
-<rect class="fill" x="152" y="192" width="11.3" height="12" rx="6" fill="#3572A5" style="animation-delay:0.63s"/>
-<text x="698" y="204" text-anchor="end" fill="#8b949e">2.3%</text>
+<rect class="fill" x="152" y="192" width="10.5" height="12" rx="6" fill="#3572A5" style="animation-delay:0.63s"/>
+<text x="698" y="204" text-anchor="end" fill="#8b949e">2.1%</text>
 </g>
 </svg>
